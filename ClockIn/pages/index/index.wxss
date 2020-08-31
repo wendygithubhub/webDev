@@ -1,0 +1,68 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 150px;
+  height: 50rpx;
+  background-color: rgb(33, 207, 234);
+}
+
+/* 圆圈按钮设置 */
+.sort_box {
+  width: 600rpx;
+  display: flex;  /*弹性容器*/
+  /*flex-direction: row;*/
+  margin: 0 30rpx;
+  justify-content: space-around;/*每个项目两端相等，水平均匀分布*/
+
+  margin-top: 100rpx;
+}
+
+.sort_box .item .icon{
+  width: 30 rpx;
+  height: 30 rpx;
+  line-height: 100rpx; /*图标中的字，行高*/
+  text-align: center; /*左右居中*/
+  background-color: rgb(33, 207, 234);
+  color: #000;
+
+  border-radius: 50%; /*变成圆了*/
+
+  /*margin-bottom: 10rpx;*/
+}
+
+/* 打卡所在区域设置 */
+.clockIn{
+  height: 100rpx;
+}
+/* 打卡button设置 */
+.clockIn clockButton{
+  height: 80rpx;
+}
+
+.block{
+  height: 200rpx;
+  width: 200rpx;
+  line-height: 200rpx;
+  text-align: center;
+  background-color: #000;
+}
+
+.block text{
+  color: #fff;
+}

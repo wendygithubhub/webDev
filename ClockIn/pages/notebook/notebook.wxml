@@ -1,0 +1,23 @@
+<!--pages/notebook/notebook.wxml-->
+<view class = "title">
+  <!-- <text> {{textTitle}}</text> -->
+  <!-- <text> {{time}}</text> -->
+  <text style="text-align:center">{{month + "月" + day + "日 笪文 上班," + hour + "点" + minutes + "分打卡"}}</text>
+</view>
+
+<view class = 'result'>
+  <view wx:if = "{{hour < 9}}">上班前</view>
+  <view wx:elif = "{{hour > 17}}">下班后</view>
+  <view wx:else>正在上班</view>
+</view>
+
+<view class = "list">
+  <block wx:for="{{list}}" wx:for-item="course">
+    <view class = "item">
+      <view class = "item_img">
+        <image src = "{{course.img}}"></image>
+      </view>
+      <view class="item.name">{{course.name}}</view>    
+    </view>
+  </block>
+</view>
