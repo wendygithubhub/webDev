@@ -1,5 +1,7 @@
 //index.js
 //获取应用实例
+import QRCode from '../../utils/weapp-qrcode'
+
 const app = getApp()
 var util = require('../../utils/util.js');
 
@@ -45,6 +47,16 @@ Page({
         }
       })
     }
+
+    new QRCode('myQrcode',{
+      text:"hello",
+      width:150,
+      height:150,
+      padding:0,
+      callback:(res) =>{
+        console.log(res.path)
+      }
+    })
   },
 
   // 上下班打卡

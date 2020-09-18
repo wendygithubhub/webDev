@@ -17,9 +17,19 @@
 }
 
 .usermotto {
-  margin-top: 150px;
+  position: fixed;
+  bottom: 80rpx;
   height: 50rpx;
-  background-color: rgb(33, 207, 234);
+  background-color: #FFF;
+  width: 750rpx;
+  height: 120rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-motto{
+  background-color: cyan;
 }
 
 /* 圆圈按钮设置 */
@@ -56,11 +66,13 @@
 }
 
 .block{
-  height: 200rpx;
-  width: 200rpx;
+  margin-top: 50rpx;
+  height: 300rpx;
+  width: 300rpx;
   line-height: 200rpx;
   text-align: center;
-  background-color: #000;
+  border: dashed grey 2rpx;
+  /* background-color: #000; */
 }
 
 .block text{

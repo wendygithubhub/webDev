@@ -12,28 +12,10 @@
   <view class = "clockIn" bindtap="viewTap">
     <button class = "clockButton" bindtap="copyTimeIn"> 打  卡 </button>
   </view>
- 
-  <!-- <view class = "sort_box">
-    <view class = "item">
-      <view class = "icon" bindtap="bindViewTap"> 一 </view>
-      <text>页面一</text>
-    </view>
-    <view class = "item">
-      <view class = "icon"> 二 </view>
-      <text>页面二</text>
-    </view>
-    <view class = "item">
-      <view class = "icon"> 三 </view>
-      <text>页面三</text>
-    </view>
-    <view class = "item">
-      <view class = "icon"> 四 </view>
-      <text>页面四</text>
-    </view>
-  </view> -->
+
 
   <view class = "block">
-    <text>小程序</text>
+    <canvas class="canvas-code" canvas-id="myQrcode" style="width:300rpx; height:300rpx"></canvas>
   </view>
 
   <view class="usermotto">
