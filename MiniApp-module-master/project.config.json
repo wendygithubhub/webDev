@@ -19,7 +19,7 @@
     "uploadWithSourceMap": true,
     "compileHotReLoad": false,
     "useMultiFrameRuntime": false,
-    "useApiHook": true,
+    "useApiHook": false,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
@@ -33,8 +33,8 @@
   },
   "compileType": "miniprogram",
   "libVersion": "1.6.6",
-  "appid": "wx40c208c104c431b4",
-  "projectname": "MiniApp-module",
+  "appid": "wx98299579bc116648",
+  "projectname": "MiniApp-module-master",
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
   "condition": {

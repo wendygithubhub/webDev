@@ -1,9 +1,14 @@
 {
   "pages": [
-    
+    "pages/component/progress/progress",
+    "pages/component/movable-view/movable-view",
+    "pages/component/swiper/swiper",
+    "pages/component/view/view",
     "pages/index/index",
+    "pages/forPage/forPage",
     "pages/logs/logs",
     "pages/notebook/notebook"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",

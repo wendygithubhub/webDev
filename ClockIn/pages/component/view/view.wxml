@@ -1,0 +1,45 @@
+<!--pages/component/view/view.wxml-->
+<import src="../../common/head.wxml">  </import>
+
+<view class = "container">
+  <template is="head" data = "{{title:'view'}}"></template>
+  <view class="page-body">
+    <view class="page-section">   
+      <view class = "page-section-title">
+        <text> page-section\ntitle</text>
+      </view>
+      <view> view</view>
+      <view class = "page-section-spacing">
+        <view class = "flex-wrp" style="flex-direction:row;">  
+          <view class = "flex-item" >  </view>
+          <view class = "flex-item" style="background-color: green">  </view>
+          <view class = "flex-item">  </view>
+          <view class = "flex-item" style="background-color: green">  </view>
+          <view class = "flex-item">  </view>
+        </view>
+      </view>
+    </view>
+    <view class="page-section">
+      <view>scroll view 纵向</view>
+      <view style="padding:0 40px">
+        <scroll-view scroll-y="true" style="height:150px">
+          <view style="height:150px; background-color:red">  </view>
+          <view style="height:150px; background-color:green">  </view>
+          <view style="height:150px; background-color:grey">  </view>
+        </scroll-view>
+      </view>
+      <view style="padding:0 40px; margin-top:30px">
+        <scroll-view scroll-x="true" style="width:100%;white-space: nowrap;">
+          <view class = "scroll_item " style="background-color:red">  </view>
+          <view class = "scroll_item " style="background-color:green">  </view>
+          <view class = "scroll_item " style="background-color:grey">  </view>
+        </scroll-view>
+      </view>
+
+    </view>
+  
+  </view>
+  <view class = "foot">
+  
+  </view>
+</view>

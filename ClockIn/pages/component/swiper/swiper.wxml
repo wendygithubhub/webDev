@@ -1,0 +1,17 @@
+<import src="../../common/head.wxml"/>
+
+<view class="container">
+  <template is = "head"  data="{{title:'swiper'}}"></template>
+  <view class = "body">
+    <view class = "page_section page_section_spacing">  
+    <swiper indicator-dots="true">
+      <block wx:for="{{background}}" wx:key="*this">
+          <swiper-item>
+            <view class="swiper-item {{item}}"></view>
+          </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  </view>
+  
+</view>

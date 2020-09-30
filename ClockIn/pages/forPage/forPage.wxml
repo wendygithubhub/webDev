@@ -1,0 +1,16 @@
+<view class="container log-list">
+<!--有wx:key-->
+<input value="id:{{item.id}}"   wx:for="{{input_data}}"   wx:key="unique" />
+
+<!-- <view  wx:for="{{input_data}}" wx:for-index="bindex" wx:key="unique" >
+  <input bindinput = "bindinput" data-bindex='{{bindex}}'></input>
+</view> -->
+
+
+<button bindtap="addToFront">
+    前部插入元素
+</button>
+<button bindtap="switch">
+    随机排序
+</button>
+</view>

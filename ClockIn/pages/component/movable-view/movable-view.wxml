@@ -1,0 +1,21 @@
+<import src="../../common/head.wxml"/>
+
+<view class="container">
+    <template is = "head" data = "{{title:'movable-view'}}"></template>
+    <view class = "page">
+      <movable-area>
+        <movable-view direction="all" inertia="true" out-of-bounds>text</movable-view>
+      </movable-area>
+
+      <view class="page_section page_section_spacing">
+          <map 
+              style="width:100%; height:5\00rpx;" 
+              latitude="39.929968" 
+              longitude="116.158166"
+              scale="16"
+          ></map>
+      </view>
+    </view>
+    
+    <icon type="success"></icon>
+</view>

@@ -1,4 +1,7 @@
 /**index.wxss**/
+.container{
+  margin-top: 200rpx;
+}
 .userinfo {
   display: flex;
   flex-direction: column;
